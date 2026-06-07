@@ -1,108 +1,140 @@
-Jianying Automation
+技能名称
 
-A professional automation skill for JianyingPro (CapCut Desktop) video production workflows.
+剪映自动化视频制作技能
 
-This skill helps AI agents and automation systems create, edit, and manage short-video projects through multiple routes:
+技能简介
 
-FFmpeg-based video generation
-Jianying draft project generation
-Jianying UI automation
-Subtitle generation and styling
-Storyboard planning
-Material scoring and selection
-Watermark cleanup workflows
-Open-source AI video processing pipelines
-Batch short-video production
-Core Features
-🎬 FFmpeg First Draft Workflow
+面向剪映专业版（Jianying Pro）的智能视频制作技能，通过 AI 与自动化流程协同工作，实现从素材整理、分镜规划、字幕生成到视频导出的全流程自动化处理，大幅降低短视频制作成本，提高内容生产效率。
 
-Generate complete first-cut videos automatically:
+该技能支持直接生成可编辑的剪映工程，也支持通过 FFmpeg、桌面自动化等方式完成视频初剪，适用于知识分享、历史解说、城市文化、旅游攻略、书籍推荐等各类短视频内容创作。
 
-Video slicing
-Audio normalization
-Subtitle rendering
-BGM mixing
-MP4 export
-📝 Jianying Draft Generation
+核心功能
+🎬 自动生成初剪视频
 
-Create editable Jianying projects:
+自动完成：
 
-draft_content.json generation
-Timeline construction
-Subtitle tracks
-Material organization
-Project metadata management
-🤖 Jianying UI Automation
+素材整理与筛选
+视频切片
+转场衔接
+背景音乐混音
+字幕烧录
+视频导出
 
-Automate desktop operations:
+快速生成可发布的初版视频。
 
-Launch Jianying
-Import media
-Apply templates
-Generate captions
-Export projects
-Execute repetitive editing tasks
-🎯 Storyboard & Director Workflow
+📝 剪映工程自动生成
 
-Inspired by professional short-video production pipelines:
+自动构建剪映项目文件：
 
-Script analysis
-Visual anchor planning
-Storyboard generation
-Shot purpose tagging
-Quality review loops
-🧹 Video Cleanup
+draft_content.json生成
+时间轴搭建
+字幕轨道创建
+素材轨道管理
+工程目录组织
 
-Integrated workflows for:
+生成后可直接在剪映中继续精细编辑。
 
-Subtitle removal
-Watermark removal
-Logo cleanup
-Object removal
-AI inpainting
-📊 Automated Quality Control
+🤖 剪映界面自动操作
 
-Generate:
+模拟人工操作剪映：
 
-Storyboards
-Source usage reports
-Contact sheets
-Quality reports
-Decision logs
-Supported Routes
-Route	Purpose
-FFmpeg Workflow	Fast automatic first cuts
-Jianying Draft Workflow	Editable projects
-UI Automation Workflow	Jianying-specific functions
-HyperFrames Workflow	Title cards and visual inserts
-Open Source AI Workflow	Cleanup and enhancement
-Director Workflow	Story-driven video planning
-Typical Use Cases
-Book recommendation videos
-History storytelling videos
-City culture videos
-Travel videos
-Knowledge-sharing shorts
-Documentary-style short content
-Batch short-video production
-Default Editing Rules
-9:16 vertical format
-Avoid close-up faces
-Avoid watermarks
-Avoid creator handles
-Prefer clean scenery and details
-Editable Jianying subtitle tracks
-Safe subtitle positioning
-Technology Stack
-Jianying Pro
-CapCut Desktop
+启动剪映
+导入素材
+创建项目
+自动识别字幕
+执行编辑流程
+自动导出视频
+
+适用于需要调用剪映专有功能的场景。
+
+🎯 AI导演与分镜规划
+
+根据文案自动生成：
+
+视频结构设计
+镜头规划
+素材需求分析
+分镜脚本
+场景切换方案
+
+让视频内容逻辑更加清晰。
+
+🧹 视频素材净化
+
+支持：
+
+去水印
+去字幕
+去Logo
+去杂物
+AI补帧修复
+视频增强
+
+提高素材可用率。
+
+📊 内容质量控制
+
+自动生成：
+
+素材评分
+分镜报告
+选材依据
+视频检查报告
+制作日志
+
+便于复查与优化。
+
+支持的工作流
+FFmpeg工作流
+
+适用于：
+
+快速批量生产
+自动化视频拼接
+无需打开剪映
+剪映工程工作流
+
+适用于：
+
+后期人工精修
+保留完整编辑能力
+团队协作制作
+剪映自动化工作流
+
+适用于：
+
+调用剪映特有功能
+自动识别字幕
+模板应用
+AI导演工作流
+
+适用于：
+
+历史故事
+城市文化
+知识讲解
+书籍推荐
+纪录片风格短视频
+适用场景
+历史人物解说
+中国城市文化介绍
+旅游攻略视频
+书籍推荐视频
+知识科普视频
+AI口播视频
+批量短视频生产
+自媒体矩阵运营
+技术栈
+剪映专业版（Jianying Pro）
 FFmpeg
 Python
 AutoCut
+HyperFrames
 ProPainter
 E2FGVI
-Inpaint-Anything
-HyperFrames
-Skill Purpose
+Inpaint Anything
+AI字幕系统
+UI自动化框架
+技能目标
 
-This repository provides a reusable automation skill that enables AI agents to create professional Jianying editing workflows while maintaining editable project outputs and human-review-friendly production pipelines.
+通过标准化、自动化和智能化的视频生产流程，实现从文案到视频成片的高效转换，在保证可编辑性的同时，大幅提升短视频内容的制作效率与规模化生产能力。
