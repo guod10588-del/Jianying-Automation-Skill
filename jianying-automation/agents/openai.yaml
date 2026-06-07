@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Jianying Automation"
+  short_description: "Automate Jianying/CapCut video first drafts with FFmpeg, draft files, and UI control."
+  default_prompt: "Use Jianying automation to generate a first-draft MP4, subtitles, storyboard, and editable handoff artifacts for this video project."
